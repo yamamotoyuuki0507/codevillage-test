@@ -1,0 +1,417 @@
+@charset "UTF-8";
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav, ul, li {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+a:visited {
+  color: inherti;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+.about, .news {
+  width: 1280px;
+  padding: 0 110px;
+}
+
+.header-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  margin-top: 80px;
+}
+
+.header-wrap .header-logo {
+  font-size: 38px;
+  font-weight: bold;
+  font-family: Roboto Mono for Powerline;
+  text-align: left;
+  font: normal normal normal 38px/46px Roboto Mono for Powerline;
+  letter-spacing: 3.8px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 1;
+  margin-left: 80px;
+}
+
+.header-wrap .pc-nav {
+  z-index: 10;
+}
+
+.header-wrap .pc-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 18px;
+  margin-left: 20px;
+  text-align: left;
+  font: normal normal normal 18px/22px Roboto Mono for Powerline;
+  letter-spacing: 1.8px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.header-wrap .pc-nav ul li:not(:first-child) {
+  margin-left: 20px;
+}
+
+.first-view {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 7%;
+}
+
+.first-view_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.first-view_1 .first-view_text {
+  height: 800px;
+  width: 41%;
+  padding-top: 190px;
+}
+
+.first-view_1 .first-view_img {
+  background-image: url("../img/first-v/first-v.png");
+  width: 59%;
+  height: 800px;
+}
+
+.first-view_1 .hair {
+  font-size: 38px;
+  font-family: ヒラギノ明朝 Pro;
+  text-align: center;
+  font: normal normal normal 38px/65px Hiragino Mincho Pro;
+  letter-spacing: 3.8px;
+  color: #000000;
+  opacity: 1;
+  margin-top: 150px;
+}
+
+.first-view_1 .hair-2 {
+  font-size: 38px;
+  font-family: Zapfino;
+  margin-top: 48px;
+  text-align: center;
+  font: normal normal normal 38px/128px Zapfino;
+  letter-spacing: 3.8px;
+  color: #000000;
+  opacity: 1;
+}
+
+.about {
+  padding-top: 260px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #A193861F 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.about-title {
+  width: 130px;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: Roboto;
+  text-align: left;
+  font: normal normal normal 18px/24px Roboto;
+  letter-spacing: 5.4px;
+  color: #707070;
+  text-transform: uppercase;
+  opacity: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.inim {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  background: #A1938689 0% 0% no-repeat padding-box;
+  opacity: 1;
+  height: 30%;
+  margin-top: 10px;
+}
+
+.img-wrap_item_1 {
+  height: 410px;
+  width: 40%;
+}
+
+.img-wrap_item_2 {
+  height: 410px;
+  width: 60%;
+  margin-left: 10px;
+}
+
+.about-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #A1938689 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.about-text_1 {
+  font-size: 40px;
+  font-family: ヒラギノ明朝 Pro;
+  width: 55%;
+  margin: 90px 60px 130px 65px;
+  text-align: left;
+  font: normal normal normal 40px/68px Hiragino Mincho Pro;
+  letter-spacing: 16px;
+  color: #FFFFFF;
+  opacity: 1;
+  text-align: center;
+}
+
+.about-text_2 {
+  font-size: 16px;
+  font-family: ヒラギノ角ゴ Pro;
+  width: 45%;
+  margin: 70px 75px 65px 0;
+  text-align: left;
+  font: normal normal normal 16px/27px Hiragino Kaku Gothic Pro;
+  letter-spacing: 1.6px;
+  color: #FFFFFF;
+  opacity: 1;
+  text-align: center;
+}
+
+.news-title_top {
+  font-size: 18px;
+  width: 68px;
+  margin: 260px 0 11px 0;
+}
+
+.img {
+  width: 100%;
+}
+
+.news-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.news-item {
+  width: 26%;
+}
+
+.news-texts .news-title {
+  font-size: 18px;
+  padding: 40px 0 30px 10px;
+  text-align: center;
+  text-align: left;
+  font: normal normal normal 30px/36px Roboto Mono for Powerline;
+  letter-spacing: 3px;
+  color: #000000;
+  opacity: 1;
+}
+
+.news-texts .news-text {
+  font-size: 16px;
+  padding: 34px 10px;
+  line-height: 20px;
+  text-align: left;
+  font: normal normal normal 16px/19px Roboto Mono for Powerline;
+  letter-spacing: 1.6px;
+  color: #000000;
+  opacity: 1;
+}
+
+.ACCESS {
+  padding-top: 260px;
+  margin-top: 70px;
+  background: #A193861F 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.title-ACCESS {
+  width: 94px;
+  font-size: 24px;
+  padding-left: 110px;
+  color: #707070;
+  font-family: Roboto;
+  text-align: left;
+  font: normal normal normal 18px/24px Roboto;
+  letter-spacing: 5.4px;
+  color: #707070;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.ACCESS-wrap {
+  height: 400px;
+  background: #A193861F 0% 0% no-repeat padding-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  margin-top: 10px;
+}
+
+.address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40%;
+  padding-right: 110px;
+  background: #D0C5BA 0% 0% no-repeat padding-box;
+}
+
+.address-title {
+  font-size: 24px;
+  color: #00000038;
+}
+
+.address-info {
+  font-size: 16px;
+  color: #FFFFFF;
+  padding-top: 24px;
+}
+
+.map {
+  width: 60%;
+}
+
+.news-texts {
+  text-align: right;
+}
+/*# sourceMappingURL=main.css.map */

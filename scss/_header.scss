@@ -1,0 +1,41 @@
+.header-wrap {
+    display: flex;    
+    align-items: center;
+    height: 100%;
+    margin-top: 80px;    
+
+.header-logo {    
+    font-size: 38px;    
+    font-weight: bold;
+    font-family: Roboto Mono for Powerline;
+    text-align: left;
+    font: normal normal normal 38px/46px Roboto Mono for Powerline;
+    letter-spacing: 3.8px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-left: 80px;    
+}
+
+.pc-nav {    
+    z-index: 10;
+        
+    ul {        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 18px;
+        margin-left: 20px;
+        text-align: left;        
+    font: normal normal normal 18px/22px Roboto Mono for Powerline;
+    letter-spacing: 1.8px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;                   
+     li:not(:first-child) {
+         margin-left: 20px;
+     }   
+              
+    }
+}
+}

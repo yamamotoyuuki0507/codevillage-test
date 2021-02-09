@@ -1,0 +1,92 @@
+.about {
+    // padding: 0;
+    padding-top: 260px;
+    box-sizing: border-box;
+    background: #A193861F 0% 0% no-repeat padding-box;
+    opacity: 1;
+    
+}
+
+.about-title {
+    width: 130px;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: Roboto;
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 5.4px;
+    color: #707070;
+    text-transform: uppercase;
+    opacity: 1;
+   display: flex;
+    }
+
+// .img-items {
+//     background-color: tomato;
+//     // height: 410px;
+//     width: 100%;
+//     display: flex;
+//     justify-content: space-between;
+//     flex-direction: column;
+    
+//     margin-top: 10px;
+
+.inim {
+    display: flex;
+    justify-content: center;  
+    width: 100%;
+    background: #A1938689 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 30%;
+    margin-top: 10px;
+}    
+    
+    .img-wrap_item_1 {
+        height: 410px;
+        width: 40%;        
+       
+    }
+    .img-wrap_item_2 {
+        height: 410px;
+        width: 60%;
+        margin-left: 10px;       
+            
+}
+
+.about-text {
+    display: flex;
+    // background-color: yellow;
+    // height: 560px;
+    background: #A1938689 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.about-text_1 {
+    font-size: 40px;
+    font-family: ヒラギノ明朝 Pro;
+    width: 55%;
+    // height: 42px;
+    margin: 90px 60px 130px 65px;
+    text-align: left;
+    font: normal normal normal 40px/68px Hiragino Mincho Pro;
+    letter-spacing: 16px;
+    color: #FFFFFF;
+    opacity: 1; 
+    text-align: center;
+    // background-color: yellowgreen;
+}
+
+.about-text_2 {
+    font-size: 16px;
+    font-family: ヒラギノ角ゴ Pro;
+    width: 45%;
+    // height: 130px; 
+    margin: 70px 75px 65px 0;   
+    text-align: left;
+    font: normal normal normal 16px/27px Hiragino Kaku Gothic Pro;
+    letter-spacing: 1.6px;
+    color: #FFFFFF;
+    opacity: 1;
+    text-align: center;
+    // background-color: bisque;
+}

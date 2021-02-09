@@ -1,0 +1,58 @@
+.ACCESS {
+    padding-top: 260px;
+    margin-top: 70px;
+    background: #A193861F 0% 0% no-repeat padding-box;
+    opacity: 1; 
+}
+
+.title-ACCESS {
+    width: 94px;
+    font-size: 24px;
+    padding-left: 110px;
+    color: #707070;
+    font-family: Roboto;
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 5.4px;
+    color: #707070;
+    text-transform: uppercase;
+    opacity: 1;
+    
+}
+
+.ACCESS-wrap {
+    height: 400px; 
+    background: #A193861F 0% 0% no-repeat padding-box;
+   display: flex;
+   flex-wrap: nowrap;
+    margin-top: 10px;
+}  
+
+.address {    
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-content: center;
+   align-items: center;
+    width: 40%;
+    padding-right: 110px;
+    // padding: 155px 190px 100px 110px;
+    background: #D0C5BA 0% 0% no-repeat padding-box;
+}
+    .address-title {
+        font-size: 24px;
+        color: #00000038;
+    }
+    .address-info {
+        font-size: 16px;
+        color: #FFFFFF;
+        padding-top: 24px;
+    }
+
+.map {
+    width: 60%;
+}
+
+.news-texts {
+    text-align: right;
+}
