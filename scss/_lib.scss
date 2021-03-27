@@ -42,3 +42,32 @@
 //     opacity: 1;
 //     height: 400px;
 // }
+
+.title {
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    letter-spacing: 5.4px;
+    color: #707070;
+    &:after {
+        display: inline-block;
+        content: "";
+        border: 1px solid black;
+        width: 100px;
+        opacity: 0.7;
+        margin-left: 20px;
+    }
+}
+
+.catch {
+    display: flex;
+    align-items: center; //垂直中心
+    // justify-content: center;　水平中心
+}
+
+.catch:after {
+    border: 1px solid;
+    content: "";
+    width: 3em;
+    margin-left: 1em;
+}

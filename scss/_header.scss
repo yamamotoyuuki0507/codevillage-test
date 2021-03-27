@@ -19,6 +19,9 @@
 
 .pc-nav {    
     z-index: 10;
+    @include tab {
+        display: none;
+    }
         
     ul {        
         display: flex;
@@ -39,3 +42,24 @@
     }
 }
 }
+
+// ハンバーガーメニュー
+// .ham {
+//     @include tab {
+//     width: 25px;
+//     height: 14px;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-between;
+//     }
+    
+//     span {
+//         @include tab {
+//         display: inline-block;
+//         width: 100%;
+//         height: 1px;
+//         background-color: #fff;
+//         }
+        
+//     }
+// }

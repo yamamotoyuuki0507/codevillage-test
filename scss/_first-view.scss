@@ -1,16 +1,16 @@
 .first-view {    
     height: 100vh;
-    position: absolute; 
+   position: absolute; 
     top: 0;
-    left: 7%; 
+    left: 7%;  
 }
 
 .first-view_1 {
     display: flex; 
     position: relative;  
    
-// .img {
-//     height: 800px;
+// // .img {
+// //     height: 800px;
 // }    
     
     
@@ -20,9 +20,12 @@
         padding-top: 190px;    
     }
     .first-view_img {
-        background-image: url("../img/first-v/first-v.png");
+        background-image: url("../img/first-v/first-v_2x.png");
         width: 59%; 
         height: 800px; 
+        background-size: cover;
+        background-repeat: no-repeat;
+
         // background-color: red; 
     }             
    
